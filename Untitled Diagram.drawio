@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T19:36:35.820Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="ELdDM1DqKiZ61RHINCOI" type="github"><diagram id="z2BPnO-aapJTgQ8Ug7cL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-23T20:03:56.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="M9P5IhKc8XN5l3-WWsTN" type="github">
+  <diagram id="YLxcvs7g5hzCUymmAWNF" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-1" value="Dice_Dice" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="70" y="50" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-2" value="- value: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-1">
+          <mxGeometry y="26" width="250" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-1">
+          <mxGeometry y="70" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-4" value="+ Dice_Dice(int value)&#xa;+ setValue(int value): void&#xa;+ getValue(): int&#xa;+ throwDice() : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-1">
+          <mxGeometry y="78" width="250" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-5" value="Dice_Player" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="450" y="45" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-6" value="- name: String&#xa;- totalPoints: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-5">
+          <mxGeometry y="26" width="300" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-5">
+          <mxGeometry y="80" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-8" value="+ Dice_Player(String name)&#xa;+ setName(String name): void&#xa;+ getName(): String&#xa;+ setTotalPoints( int points): void&#xa;+ getTotalPoints(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-5">
+          <mxGeometry y="88" width="300" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-9" value="Dice_Game" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="45" y="260" width="550" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-10" value="- firstPlayer: String&#xa;- secondPlayer: String&#xa;- firstPlayerTotalPoints: int&#xa;- secondPlayerTotalPoints: int&#xa;- totalOfPoints: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-9">
+          <mxGeometry y="26" width="550" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-9">
+          <mxGeometry y="140" width="550" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-12" value="+ method(type): type&#xa;+ requestPlayerNames(): void&#xa;+ requestPlayerThrows(String player): void&#xa;+ comparePointsOfPlayers(String firstPlayer, String secondPlayer): void&#xa;+ runGame(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-9">
+          <mxGeometry y="148" width="550" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-13" value="Dice_Main" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="310" y="590" width="210" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-13">
+          <mxGeometry y="26" width="210" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dglBkwXJ5XKUGASN1-KF-16" value="+ main(String[] args): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Lucida Console;" vertex="1" parent="dglBkwXJ5XKUGASN1-KF-13">
+          <mxGeometry y="34" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
